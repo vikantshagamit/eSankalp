@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context=".FullscreenActivity" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="42dp"
+        android:text="@string/slogan"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="330dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/imageView2"
+        android:contentDescription="@string/slogan"
+        android:src="@drawable/sankalp_logo" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="450dp"
+        android:layout_height="300dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/slogan"
+        android:src="@drawable/untitled" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="21dp"
+        android:text="@string/action_settings"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

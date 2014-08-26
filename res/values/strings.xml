@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ई-संकल्प</string>
+    <string name="action_settings">A project by Department of MCA,Marathwada Institute of Technology,Aurangabad</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="slogan">प्रगती शेतकऱ्याची</string>
+    <string name="pr">A Project by :</string>
+    <string name="ns">नैसर्गिक  साधन संपत्ती</string>
+	<string name="health">आरोग्य</string>
+	<string name="ig">रोजगार निर्मिती</string>
+	<string name="agri">शेती</string>
+	<string name="edu">शिक्षण</string>
+	
+	<string name="watchvideo">व्हिडीयो पाहण्यासाठी येथे क्लिक करा</string>
+	
+
+</resources>
